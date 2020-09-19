@@ -1,0 +1,87 @@
+header {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+header .setting {
+    align-items: center;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    position: relative;
+    width: 32px;
+}
+
+header .setting img {
+    cursor: pointer;
+    object-fit: cover;
+    width: 100%;
+}
+
+header .optionMenuContainer {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 4px 5px 10px 1px rgba(0,0,0,0.5);
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    position: absolute;
+    top: 55px;
+    width: 300px;
+}
+
+header .optionMenuContainer .cubik {
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.5) -6px -4px 10px -3px;
+    height: 14px;
+    position: absolute;
+    top: -7px;
+    transform: rotate(45deg);
+    width: 14px;
+}
+
+header .optionMenuContainer .container-form {
+    margin: 15px 0 0;
+    width: 90%;
+}
+
+header .optionMenuContainer .container-form .option {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+header .optionMenuContainer .container-form .option span {
+    width: 40%;
+}
+
+header .optionMenuContainer .container-form .option .container-buttons {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+header .optionMenuContainer .container-form .option .container-buttons button {
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    height: 50%;
+    outline: none;
+    width: 40%;
+}
+
+.b-plus {
+    background-color: #a8dadc;
+}
+
+.b-minus {
+    background-color: #457b9d;
+}
